@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import schoolRoutes from "./src/config/routes/schoolRoutes";
+import schoolRoutes from "./routes/schoolRoutes";
 
 dotenv.config();
 const app = express();
